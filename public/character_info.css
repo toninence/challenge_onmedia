@@ -1,0 +1,51 @@
+.character-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  color: #000;
+  align-self: flex-start;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+  height: 100%;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px 0 0 5px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  height: 100%;
+  justify-content: space-around;
+  padding: 20px;
+  width: 100%;
+}
+.bold {
+  font-weight: bold;
+}
+.creepster {
+  font-family: "Creepster", cursive;
+}

@@ -1,0 +1,40 @@
+.card-img {
+    width: 30px;
+}
+.catalog {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.content-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.buton-prev-next {
+    box-shadow: 3px 3px 5px #000;
+    background-color: #fff;
+    padding: 8px;
+    margin: 8px;
+}
+.buton-prev-next {
+    text-decoration: none;
+    color: #000;
+}
+
+.buton-prev-next:visited {
+    color: #000;
+}
+.actions {
+    margin: 20px
+}
+
+.next:after {
+    content: '>';
+    margin-left: 5px;
+}
+.prev:before {
+    content: '<';
+    margin-right: 5px;
+}

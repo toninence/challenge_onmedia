@@ -1,0 +1,54 @@
+CRITICAL - 2022-06-06 11:08:07 --> The framework needs the following extension(s) installed and loaded: intl, mbstring, xml.
+#0 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/proyectos/challenge_onmedia/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-06-06 11:08:07 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CLI/CLI.php:758
+Stack trace:
+#0 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/Autoloader/Autoloader.php(264): include_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /opt/lampp/htdocs/proyectos/challenge_onmedia/app/Views/errors/cli/error_exception.php(6): spl_autoload_call()
+#7 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/Debug/Exc
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-06 13:47:03 --> The framework needs the following extension(s) installed and loaded: intl, mbstring, xml.
+#0 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/proyectos/challenge_onmedia/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-06-06 13:47:03 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CLI/CLI.php:758
+Stack trace:
+#0 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/Autoloader/Autoloader.php(264): include_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /opt/lampp/htdocs/proyectos/challenge_onmedia/app/Views/errors/cli/error_exception.php(6): spl_autoload_call()
+#7 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/Debug/Exc
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-06 13:55:31 --> The framework needs the following extension(s) installed and loaded: intl, mbstring, xml.
+#0 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /opt/lampp/htdocs/proyectos/challenge_onmedia/spark(45): require('/opt/lampp/htdo...')
+#4 {main}
+CRITICAL - 2022-06-06 13:55:31 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CLI/CLI.php:758
+Stack trace:
+#0 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CLI/CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/CLI/CLI.php(1000): CodeIgniter\CLI\CLI::init()
+#2 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/Autoloader/Autoloader.php(264): include_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /opt/lampp/htdocs/proyectos/challenge_onmedia/app/Views/errors/cli/error_exception.php(6): spl_autoload_call()
+#7 /opt/lampp/htdocs/proyectos/challenge_onmedia/system/Debug/Exc
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
